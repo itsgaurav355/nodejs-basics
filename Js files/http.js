@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
   }
   if(req.url === '/about'){
     res.end("developed by Gaurav Prajapati");
-  }
+  } 
 
   res.end(
     `<h1>Oops!</h1>
